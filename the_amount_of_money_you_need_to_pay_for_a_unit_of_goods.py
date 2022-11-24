@@ -1,4 +1,3 @@
-from time import sleep
 from tabulate import tabulate
 
 product_name = input('Введите имя продукта  ')
