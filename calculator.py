@@ -9,8 +9,6 @@ if len(str(number_of_iteration)) > 0:
 	
     sum_of_numbers = int()
     different_of_number = int()
-    quotient_of_numbers = int()
-    products_of_numbers = int()
     
     
     while counter != number_of_iteration:
