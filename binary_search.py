@@ -6,7 +6,7 @@ def binerySearch(_list, search_item):
     search_result = False
     
     while low <= high and search_result != True:
-        middle = (low + high) // 2
+        mid = (low + high) // 2
         guess = _list[middle]
         
         if guess == search_item:
@@ -14,9 +14,9 @@ def binerySearch(_list, search_item):
             return search_result
         
         if guess > search_item:
-            high = middle - 1
+            high = mid - 1
         
         else:
-            low = middle + 1
+            low = mid + 1
         
     return search_result
